@@ -1,0 +1,119 @@
+/* CSS Document */
+#features-container{
+	display:block;
+	min-width:740px;
+	max-width:960px;	
+	padding:0px 5px;
+	margin:0px auto;
+}
+
+#features-container > .features{
+	font-family:Arial, Helvetica, sans-serif;
+	height:600px;
+	margin:0px auto 33px;
+	position:relative;
+	top:0px;
+	left:0px;
+	width:100%;
+}
+
+#features-container > .features > h2{
+	background-color:none;
+	width:100%;
+	/*border-radius:8px;*/
+	height:47px;
+	line-height:47px;
+	overflow:hidden;
+	margin-bottom: 21px;
+	position:relative;
+	left:0px;
+	top:0px;
+	z-index:5;
+}
+
+
+#features-container > .features > ul > li{
+        float: left;
+        width: 280px;
+        padding: 5px 0;
+        font-size: 19px;
+        font-weight: bold;
+        list-style: none;
+}
+
+#features-container > .features > ul > li > a {
+        text-decoration: none;
+	color: #000;
+}
+
+
+
+#features-container > .features > ul.column-left {
+	float: left;
+	width: 285px;
+
+}
+
+
+
+.main-navigation ul { 
+	list-style: none;
+	font-size: 2.5em;
+	margin: 35px 0 0 10px;
+	font-weight: bold;
+} 
+
+
+/*li.hover .sub-level {
+	background: #999;
+	display: block;
+}*/
+
+ul.sub-level {
+	display: none;
+	list-style: none;
+	font-size: .60em;
+	margin: 5px 0 5px 0px;
+	font-weight: bold;
+}
+
+
+/*li:hover .sub-level {
+	display: block;
+}*/
+
+
+
+.main-navigation ul ul.sub-level li {
+	border: none;
+	line-height: 1.2em;
+
+}
+
+ul.sub-level li a {
+	border: none;
+	background: none;
+	color: #000;
+	text-decoration: none;
+
+}
+
+ul.sub-level li a:hover {
+	border: none;
+	background: none;
+}
+
+
+.main-navigation ul li { 
+	line-height: .98em;
+}
+
+.main-navigation a {  
+	background: none;
+	padding-left: 40px;
+}
+
+.main-navigation a:hover { 
+	text-decoration: none; 
+	/*background: url(../images/bg-tctStar-o.png) 0 5px no-repeat;*/
+}
